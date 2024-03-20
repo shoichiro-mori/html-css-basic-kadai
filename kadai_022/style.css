@@ -2,7 +2,7 @@ h1, p, body {
   margin: 0;
 }
 header{
-  margin-bottom: 20px;
+  padding-bottom: 20px;
   background-color: rgb(244, 79, 79);
   text-align: center;
 }
@@ -12,15 +12,17 @@ h1{
 main {
   padding: 10px;
 }
+
 #parent{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
+
 .contents{
   border: 3px solid rgb(238, 204, 204);
   flex-basis: 25%;
   padding: 10px 15px;
-  margin: 20px 0px;
+  margin: 20px 0;
   text-align: center; 
 }
 h2{
@@ -36,7 +38,7 @@ h2::before{
   color: rgb(97, 206, 249);
 }
 .contents img{
-  margin: 10px 0;
+  margin: 10px 0 10px 0;
   width: 70%;
 }
 footer{
@@ -52,6 +54,7 @@ footer a:visited{
 footer a:hover{
   color: rgb(245, 178, 168);
 }
+
 @media screen and (max-width: 768px){
   h2{
     font-size: 30px;
